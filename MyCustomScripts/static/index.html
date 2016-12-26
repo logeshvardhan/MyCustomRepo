@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome to Home Page</h1>
+<button onclick="this.innerHTML = Date()">The time is?</button>
+<h2 id="name"></h2>
+
+<h2>Copy text from different field</h2>
+<p>
+<input type="text" id="field1" value="Good Morning">
+<input type="text" id="field2">
+<button onclick="copyText()">Click to Copy Text</button>
+</p>
+
+<form>
+<p align="center">
+User Name:<input type="text" id="t1"><br><br>
+Password:<input type="text" id="t2"><br><br>
+Confirm Password:<input type="text" id="t3"><br><br>
+Address:<textarea rows="2" cols="25" id="t4"></textarea><br><br>
+<input type="button" value="Submit" onclick="sub()">
+<input type="reset" value="Clear All">
+</p>
+</form>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/custom-file.js"></script>
+</body>
+</html>
